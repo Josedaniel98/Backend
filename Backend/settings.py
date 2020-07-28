@@ -34,8 +34,11 @@ AUTH_USER_MODEL = 'usuarios.usuario'
 
 INSTALLED_APPS = [
     'usuarios',
+    'maquinaria',
+    'Alquileres',
     'rest_framework',
     'rest_framework.authtoken',
+    'django_extensions',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
